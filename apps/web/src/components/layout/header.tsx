@@ -13,6 +13,7 @@ import Link from '../link'
 // import LocaleSwitcher from './locale-switcher'
 import MobileNav from './mobile-nav'
 import Navbar from './navbar'
+import ThemeSwitcher from './theme-switcher'
 // import ThemeSwitcher from './theme-switcher'
 
 const Header = () => {
@@ -64,8 +65,8 @@ const Header = () => {
       </Link>
       <div className='flex items-center gap-2'>
         <Navbar />
-        {/* <ThemeSwitcher />
-        <LocaleSwitcher /> */}
+        <ThemeSwitcher />
+        {/* <LocaleSwitcher /> */}
         <CommandMenu />
         <MobileNav />
       </div>

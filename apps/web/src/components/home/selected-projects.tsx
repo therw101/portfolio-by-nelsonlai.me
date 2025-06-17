@@ -81,19 +81,21 @@ const SelectedProjects = () => {
           <Card key={project.slug} project={project} />
         ))}
       </motion.div>
-      <div className='my-8 flex items-center justify-center'>
-        <Link
-          href='/projects'
-          className={cn(
-            buttonVariants({
-              variant: 'outline'
-            }),
-            'rounded-xl'
-          )}
-        >
-          {t('homepage.selectedProjects.more')}
-        </Link>
-      </div>
+      {filteredProjects.length > 2 && (
+        <div className='my-8 flex items-center justify-center'>
+          <Link
+            href='/projects'
+            className={cn(
+              buttonVariants({
+                variant: 'outline'
+              }),
+              'rounded-xl'
+            )}
+          >
+            {t('homepage.selectedProjects.more')}
+          </Link>
+        </div>
+      )}
     </motion.div>
   )
 }

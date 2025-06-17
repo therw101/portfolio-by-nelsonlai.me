@@ -1,12 +1,8 @@
 'use client'
 
 import { useTranslations } from '@tszhong0411/i18n/client'
-import { buttonVariants } from '@tszhong0411/ui'
-import { cn } from '@tszhong0411/utils'
 import { motion, useInView } from 'motion/react'
 import { useRef } from 'react'
-
-import Link from '../link'
 
 import CodingHours from './coding-hours'
 import Connect from './connect'
@@ -83,11 +79,11 @@ const AboutMe = () => {
           </div>
         </div>
       </motion.div>
-      <div className='my-8 flex items-center justify-center'>
+      {/* <div className='my-8 flex items-center justify-center'>
         <Link href='/about' className={cn(buttonVariants({ variant: 'outline' }), 'rounded-xl')}>
           {t('homepage.about-me.more')}
         </Link>
-      </div>
+      </div> */}
     </motion.div>
   )
 }
