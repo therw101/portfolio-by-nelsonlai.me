@@ -169,10 +169,12 @@
   },
   "homepage": {
     "about-me": {
+      "codeing-experience": "Codeing experience",
+      "codeing-experience-time": "2 Years +",
       "coding-hours": "Coding hours",
       "connect": "Connect",
       "fav-framework": "Fav. framework",
-      "location": "Hong Kong",
+      "location": "Thailand",
       "more": "Know more about me",
       "stacks": "Stacks",
       "title": "About Me"
@@ -180,18 +182,18 @@
     "get-in-touch": {
       "description": "Feel free to reach out to me!",
       "image-alt": "Me sit in front of my desk and coding",
-      "title": "Any questions about Next.js?"
+      "title": "Any questions about Me?"
     },
     "hero": {
       "amazing": "Amazing",
       "attractive": "Attractive",
       "fantastic": "Fantastic",
-      "location-timezone": "Hong Kong • UTC/GMT +8",
+      "location-timezone": "Thailand • UTC/GMT +7",
       "stunning": "Stunning",
       "title-bottom": "React",
       "title-middle-left": "building",
       "title-middle-right": "websites using",
-      "title-top": "I'm Nelson, a Full Stack Engineer"
+      "title-top": "I'm Rutchx, a Full Stack Programmer"
     },
     "latest-articles": {
       "card": "Article",
@@ -237,8 +239,8 @@
     "link-to-section": "Link to section"
   },
   "metadata": {
-    "site-description": "Nelson Lai • 19 y/o • Student • Full Stack Engineer",
-    "site-title": "Nelson Lai - A Full Stack Engineer"
+    "site-description": "Rutchx • 28 y/o • Programmer • Full Stack Engineer",
+    "site-title": "Rutchx - A Full Stack Programmer"
   },
   "not-found": "Page Not Found!",
   "projects": {

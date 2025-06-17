@@ -4,8 +4,8 @@ const Logo = () => {
   return (
     <Section className='mb-6'>
       <Img
-        src='https://nelsonlai.me/images/avatar.png'
-        alt="Nelson Lai's logo"
+        src='/images/avatar.png'
+        alt="Rutchx's logo"
         width='48'
         height='48'
         className='rounded-full'
