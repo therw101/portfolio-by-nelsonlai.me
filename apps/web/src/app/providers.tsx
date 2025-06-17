@@ -16,7 +16,7 @@ const Providers = (props: ProvidesProps) => {
     <TRPCReactProvider>
       <ThemeProvider
         attribute='class'
-        defaultTheme='system'
+        defaultTheme='dark'
         enableSystem
         enableColorScheme
         disableTransitionOnChange

@@ -1,19 +1,19 @@
 'use client'
 
 import { useTranslations } from '@tszhong0411/i18n/client'
-import { Logo } from '@tszhong0411/ui'
 import { cn } from '@tszhong0411/utils'
 import { motion } from 'motion/react'
+import Image from 'next/image'
 import { useEffect, useState } from 'react'
 
 import CommandMenu from '@/components/command-menu'
 
 import Link from '../link'
 
-import LocaleSwitcher from './locale-switcher'
+// import LocaleSwitcher from './locale-switcher'
 import MobileNav from './mobile-nav'
 import Navbar from './navbar'
-import ThemeSwitcher from './theme-switcher'
+// import ThemeSwitcher from './theme-switcher'
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -60,12 +60,12 @@ const Header = () => {
         className='flex items-center justify-center gap-1'
         aria-label={t('layout.home')}
       >
-        <Logo width={28} height={28} aria-hidden='true' />
+        <Image src='/images/avatar.png' alt='Rutchx' width={48} height={48} />
       </Link>
       <div className='flex items-center gap-2'>
         <Navbar />
-        <ThemeSwitcher />
-        <LocaleSwitcher />
+        {/* <ThemeSwitcher />
+        <LocaleSwitcher /> */}
         <CommandMenu />
         <MobileNav />
       </div>
