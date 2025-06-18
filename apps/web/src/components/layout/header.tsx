@@ -6,8 +6,7 @@ import { motion } from 'motion/react'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 
-import CommandMenu from '@/components/command-menu'
-
+//import CommandMenu from '@/components/command-menu'
 import Link from '../link'
 
 // import LocaleSwitcher from './locale-switcher'
@@ -67,7 +66,7 @@ const Header = () => {
         <Navbar />
         <ThemeSwitcher />
         {/* <LocaleSwitcher /> */}
-        <CommandMenu />
+        {/* <CommandMenu /> */}
         <MobileNav />
       </div>
     </motion.header>
